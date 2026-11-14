@@ -1,0 +1,96 @@
+[
+  {
+    "query_id": "test-001",
+    "answerable": true,
+    "status": "abstain",
+    "grounded_answer_score": 0,
+    "citation_reviews": [],
+    "abstention_correct": null,
+    "false_refusal": true,
+    "review_note": "Từ chối câu hỏi có thể trả lời; context truy xuất không chứa đủ đoạn quy định về vị trí."
+  },
+  {
+    "query_id": "test-002",
+    "answerable": true,
+    "status": "answered",
+    "grounded_answer_score": 2,
+    "citation_reviews": [
+      {
+        "citation_id": "nd13-2023-p10-legal-0001",
+        "exists_in_final_context": true,
+        "supports_answer": true
+      }
+    ],
+    "abstention_correct": null,
+    "false_refusal": false,
+    "review_note": "Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context."
+  },
+  {
+    "query_id": "test-003",
+    "answerable": true,
+    "status": "answered",
+    "grounded_answer_score": 2,
+    "citation_reviews": [
+      {
+        "citation_id": "nd13-2023-p15-legal-0003",
+        "exists_in_final_context": true,
+        "supports_answer": true
+      }
+    ],
+    "abstention_correct": null,
+    "false_refusal": false,
+    "review_note": "Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context."
+  },
+  {
+    "query_id": "test-004",
+    "answerable": true,
+    "status": "answered",
+    "grounded_answer_score": 2,
+    "citation_reviews": [
+      {
+        "citation_id": "nd13-2023-p15-legal-0001",
+        "exists_in_final_context": true,
+        "supports_answer": true
+      }
+    ],
+    "abstention_correct": null,
+    "false_refusal": false,
+    "review_note": "Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context."
+  },
+  {
+    "query_id": "test-005",
+    "answerable": true,
+    "status": "answered",
+    "grounded_answer_score": 2,
+    "citation_reviews": [
+      {
+        "citation_id": "nd13-2023-p5-legal-0003",
+        "exists_in_final_context": true,
+        "supports_answer": true
+      }
+    ],
+    "abstention_correct": null,
+    "false_refusal": false,
+    "review_note": "Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context."
+  },
+  {
+    "query_id": "test-006",
+    "answerable": false,
+    "status": "abstain",
+    "grounded_answer_score": null,
+    "citation_reviews": [],
+    "abstention_correct": true,
+    "false_refusal": false,
+    "review_note": "Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log."
+  },
+  {
+    "query_id": "test-007",
+    "answerable": false,
+    "status": "abstain",
+    "grounded_answer_score": null,
+    "citation_reviews": [],
+    "abstention_correct": true,
+    "false_refusal": false,
+    "review_note": "Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log."
+  }
+]

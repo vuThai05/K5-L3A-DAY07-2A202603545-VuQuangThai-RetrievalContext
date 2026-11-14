@@ -1,0 +1,15 @@
+﻿configuration,query_id,answerable,status,grounded_score_0_2,citation_ids,citation_valid,correct_abstention,false_refusal,review_note
+baseline,test-001,True,abstain,0,,,,True,Từ chối câu hỏi có thể trả lời; context truy xuất không chứa đủ đoạn quy định về vị trí.
+baseline,test-002,True,answered,2,nd13-2023-p10-legal-0001,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+baseline,test-003,True,answered,2,nd13-2023-p15-legal-0003,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+baseline,test-004,True,answered,2,nd13-2023-p15-legal-0001,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+baseline,test-005,True,answered,2,nd13-2023-p5-legal-0003,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+baseline,test-006,False,abstain,,,,True,False,Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log.
+baseline,test-007,False,abstain,,,,True,False,Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log.
+selected,test-001,True,abstain,0,,,,True,Từ chối câu hỏi có thể trả lời; context truy xuất không chứa đủ đoạn quy định về vị trí.
+selected,test-002,True,answered,2,nd13-2023-p10-legal-0001,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+selected,test-003,True,answered,2,nd13-2023-p15-legal-0003,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+selected,test-004,True,answered,2,nd13-2023-p15-legal-0001,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+selected,test-005,True,answered,2,nd13-2023-p5-legal-0003,True,,False,Trả lời đúng trọng tâm; nội dung được hỗ trợ bởi chunk trích dẫn trong context.
+selected,test-006,False,abstain,,,,True,False,Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log.
+selected,test-007,False,abstain,,,,True,False,Từ chối đúng vì tài liệu không cung cấp thông tin về thuật toán mã hóa / thời hạn lưu log.
